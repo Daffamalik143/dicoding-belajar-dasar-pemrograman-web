@@ -52,19 +52,19 @@ h2 {
 }
 
 main {
-	padding: 20px;
-	overflow: auto;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
 }
 
 main #content {
-    float: left;
-    width: 75%;
+    flex: 3;
+    padding-right: 20px;
 }
 
 main aside {
-	float: right;
-	width: 25%;
-	padding-left: 20px;
+    flex: 1;
+    padding-left: 20px;
 }
 
 main aside section img {
